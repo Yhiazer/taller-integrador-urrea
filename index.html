@@ -45,7 +45,7 @@ function calcularPromedio() {
 
     promedio = (nota1 + nota2 + nota3) / CANTIDAD_NOTAS;
 
-    document.getElementById("r").innerHTML = "Promedio: " + promedio.toFiCANTIDAD_NOTASed(2);
+    document.getElementById("r").innerHTML = "Promedio: " + promedio.toFixed(2);
 
     if (promedio >= 3.0) {
         document.getElementById("r2").innerHTML = "Resultado: aprobado";
